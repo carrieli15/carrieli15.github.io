@@ -273,18 +273,6 @@
                 href="http://localhost:1313/bn/notes/"
                 />
   </url><url>
-    <loc>http://localhost:1313/bn/notes/go/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/notes/go/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="bn"
-                href="http://localhost:1313/bn/notes/go/"
-                />
-  </url><url>
     <loc>http://localhost:1313/bn/notes/bash/</loc>
     <xhtml:link
                 rel="alternate"
@@ -295,6 +283,18 @@
                 rel="alternate"
                 hreflang="bn"
                 href="http://localhost:1313/bn/notes/bash/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/bn/notes/go/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/notes/go/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn"
+                href="http://localhost:1313/bn/notes/go/"
                 />
   </url>
 </urlset>

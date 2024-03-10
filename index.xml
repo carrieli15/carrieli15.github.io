@@ -73,6 +73,15 @@ This is sample alert with type=&amp;quot;success&amp;quot;. This is sample alert
     
     
     <item>
+      <title>Go বেসিক</title>
+      <link>http://localhost:1313/notes/go/basic/_index.bn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/go/basic/_index.bn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Introduction</title>
       <link>http://localhost:1313/notes/go/basic/introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -95,6 +104,15 @@ msg := &amp;#34;Hello&amp;#34; Constants const Phi = 1.618 </description>
 str := `Multiline string` Numbers Typical types
 num := 3 // int num := 3. // float64 num := 3 + 4i // complex128 num := byte(&amp;#39;a&amp;#39;) // byte (alias for uint8) Other Types
 var u uint = 7 // uint (unsigned) var p float32 = 22.7 // 32-bit float Arrays // var numbers [5]int numbers := [...]int{0, 0, 0, 0, 0} Pointers func main () { b := *getPointer() fmt.</description>
+    </item>
+    
+    <item>
+      <title>অ্যাডভান্সড</title>
+      <link>http://localhost:1313/notes/go/advanced/_index.bn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/go/advanced/_index.bn/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -124,6 +142,60 @@ var u uint = 7 // uint (unsigned) var p float32 = 22.7 // 32-bit float Arrays //
       <description> Variable NAME=&amp;#34;John&amp;#34; echo $NAME echo &amp;#34;$NAME&amp;#34; echo &amp;#34;${NAME} Condition if [[ -z &amp;#34;$string&amp;#34; ]]; then echo &amp;#34;String is empty&amp;#34; elif [[ -n &amp;#34;$string&amp;#34; ]]; then echo &amp;#34;String is not empty&amp;#34; fi </description>
     </item>
     
+    <item>
+      <title>Bash 笔记</title>
+      <link>http://localhost:1313/notes/bash/_index.bn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/bash/_index.bn/</guid>
+      <description>Bash Notes </description>
+    </item>
+    
+    <item>
+      <title>Go এর নোট সমূহ</title>
+      <link>http://localhost:1313/notes/go/_index.bn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/go/_index.bn/</guid>
+      <description>Go Notes </description>
+    </item>
+    
+    
+    <item>
+      <title>Sub-Category</title>
+      <link>http://localhost:1313/posts/category/sub-category/_index.bn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/category/sub-category/_index.bn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Top Category Sample</title>
+      <link>http://localhost:1313/posts/category/_index.bn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/category/_index.bn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>নোট সমূহ</title>
+      <link>http://localhost:1313/notes/_index.bn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/_index.bn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>পোস্ট সমূহ</title>
+      <link>http://localhost:1313/posts/_index.bn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/_index.bn/</guid>
+      <description></description>
+    </item>
     
     
   </channel>

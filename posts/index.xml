@@ -49,6 +49,33 @@ Default hero image. Different shortcodes. Alert The following alerts are availab
 This is sample alert with type=&amp;quot;success&amp;quot;. This is sample alert with type=&amp;quot;danger&amp;quot;. This is sample alert with type=&amp;quot;warning&amp;quot;. This is sample alert with type=&amp;quot;info&amp;quot;. This is sample alert with type=&amp;quot;dark&amp;quot;. This is sample alert with type=&amp;quot;primary&amp;quot;. This is sample alert with type=&amp;quot;secondary&amp;quot;. Image A sample image without any attribute.</description>
     </item>
     
+    <item>
+      <title>Sub-Category</title>
+      <link>http://localhost:1313/posts/category/sub-category/_index.bn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/category/sub-category/_index.bn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Top Category Sample</title>
+      <link>http://localhost:1313/posts/category/_index.bn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/category/_index.bn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>পোস্ট সমূহ</title>
+      <link>http://localhost:1313/posts/_index.bn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/_index.bn/</guid>
+      <description></description>
+    </item>
+    
     
   </channel>
 </rss>
