@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jiechen&#39;s Blog</title>
+    <title>JIECHEN LI</title>
     <link>https://carrieli15.github.io/</link>
-    <description>Recent content on Jiechen&#39;s Blog</description>
+    <description>Recent content on JIECHEN LI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 08 Jun 2020 08:06:25 +0600</lastBuildDate><atom:link href="https://carrieli15.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
@@ -73,7 +73,7 @@ This is sample alert with type=&amp;quot;success&amp;quot;. This is sample alert
     
     
     <item>
-      <title>Go বেসিক</title>
+      <title>Go 基础</title>
       <link>https://carrieli15.github.io/notes/go/basic/_index.bn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -152,7 +152,7 @@ var u uint = 7 // uint (unsigned) var p float32 = 22.7 // 32-bit float Arrays //
     </item>
     
     <item>
-      <title>Go এর নোট সমূহ</title>
+      <title>Go 笔记</title>
       <link>https://carrieli15.github.io/notes/go/_index.bn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -180,20 +180,20 @@ var u uint = 7 // uint (unsigned) var p float32 = 22.7 // 32-bit float Arrays //
     </item>
     
     <item>
-      <title>নোট সমূহ</title>
-      <link>https://carrieli15.github.io/notes/_index.bn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://carrieli15.github.io/notes/_index.bn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>পোস্ট সমূহ</title>
+      <title>博客</title>
       <link>https://carrieli15.github.io/posts/_index.bn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://carrieli15.github.io/posts/_index.bn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>笔记</title>
+      <link>https://carrieli15.github.io/notes/_index.bn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://carrieli15.github.io/notes/_index.bn/</guid>
       <description></description>
     </item>
     

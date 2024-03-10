@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Basics on Jiechen&#39;s Blog</title>
+    <title>Basics on JIECHEN LI</title>
     <link>https://carrieli15.github.io/notes/go/basic/</link>
-    <description>Recent content in Basics on Jiechen&#39;s Blog</description>
+    <description>Recent content in Basics on JIECHEN LI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://carrieli15.github.io/notes/go/basic/index.xml" rel="self" type="application/rss+xml" /><item>
-      <title>Go বেসিক</title>
+      <title>Go 基础</title>
       <link>https://carrieli15.github.io/notes/go/basic/_index.bn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
