@@ -2,95 +2,95 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/cn/search/</loc>
+    <loc>https://carrieli15.github.io/cn/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/search/"
+                href="https://carrieli15.github.io/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="http://localhost:1313/cn/search/"
+                href="https://carrieli15.github.io/cn/search/"
                 />
   </url><url>
-    <loc>http://localhost:1313/cn/search/</loc>
+    <loc>https://carrieli15.github.io/cn/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/search/"
+                href="https://carrieli15.github.io/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="http://localhost:1313/cn/search/"
+                href="https://carrieli15.github.io/cn/search/"
                 />
   </url><url>
-    <loc>http://localhost:1313/cn/</loc>
+    <loc>https://carrieli15.github.io/cn/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="https://carrieli15.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="http://localhost:1313/cn/"
+                href="https://carrieli15.github.io/cn/"
                 />
   </url><url>
-    <loc>http://localhost:1313/cn/notes/</loc>
+    <loc>https://carrieli15.github.io/cn/notes/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/notes/"
+                href="https://carrieli15.github.io/notes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="http://localhost:1313/cn/notes/"
+                href="https://carrieli15.github.io/cn/notes/"
                 />
   </url><url>
-    <loc>http://localhost:1313/cn/search/</loc>
+    <loc>https://carrieli15.github.io/cn/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/search/"
+                href="https://carrieli15.github.io/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="http://localhost:1313/cn/search/"
+                href="https://carrieli15.github.io/cn/search/"
                 />
   </url><url>
-    <loc>http://localhost:1313/cn/categories/</loc>
+    <loc>https://carrieli15.github.io/cn/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/"
+                href="https://carrieli15.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="http://localhost:1313/cn/categories/"
+                href="https://carrieli15.github.io/cn/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/cn/tags/</loc>
+    <loc>https://carrieli15.github.io/cn/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/"
+                href="https://carrieli15.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="http://localhost:1313/cn/tags/"
+                href="https://carrieli15.github.io/cn/tags/"
                 />
   </url>
 </urlset>
