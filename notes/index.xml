@@ -17,6 +17,7 @@
     
     
     
+    
     <item>
       <title>Go 基础</title>
       <link>https://carrieli15.github.io/notes/go/basic/_index.bn/</link>
@@ -52,7 +53,7 @@ var u uint = 7 // uint (unsigned) var p float32 = 22.7 // 32-bit float Arrays //
     </item>
     
     <item>
-      <title>অ্যাডভান্সড</title>
+      <title>高级选项</title>
       <link>https://carrieli15.github.io/notes/go/advanced/_index.bn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
