@@ -12,16 +12,16 @@
 	vertical-align: top;
 }
 
-.og-grid li > a,
-.og-grid li > a img {
+.og-grid li>a,
+.og-grid li>a img {
 	border: none;
 	outline: none;
 	display: block;
-  position: relative;
-  max-width: 100%;
+	position: relative;
+	max-width: 100%;
 }
 
-.og-grid li.og-expanded > a::after {
+.og-grid li.og-expanded>a::after {
 	top: auto;
 	border: solid transparent;
 	content: " ";
@@ -43,7 +43,7 @@
 	width: 100%;
 	margin-top: 10px;
 	text-align: left;
-	height: 0;
+	height: auto;
 	overflow: hidden;
 }
 
@@ -111,7 +111,7 @@
 .og-details h3 {
 	font-weight: 400;
 	font-size: 52px;
-  margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .og-details p {
@@ -137,27 +137,67 @@
 }
 
 @-webkit-keyframes loader {
-	0% { background: #ddd; }
-	33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
-	66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
+	0% {
+		background: #ddd;
+	}
+
+	33% {
+		background: #ccc;
+		box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd;
+	}
+
+	66% {
+		background: #ccc;
+		box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc;
+	}
 }
 
 @-moz-keyframes loader {
-	0% { background: #ddd; }
-	33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
-	66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
+	0% {
+		background: #ddd;
+	}
+
+	33% {
+		background: #ccc;
+		box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd;
+	}
+
+	66% {
+		background: #ccc;
+		box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc;
+	}
 }
 
 @keyframes loader {
-	0% { background: #ddd; }
-	33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
-	66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
+	0% {
+		background: #ddd;
+	}
+
+	33% {
+		background: #ccc;
+		box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd;
+	}
+
+	66% {
+		background: #ccc;
+		box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc;
+	}
 }
 
 @media screen and (max-width: 650px) {
 
-	.og-fullimg { display: none; }
-  .og-details { float: none; width: 100%; padding: 0; }
-  .og-details h3 { font-size: 32px; }
+	.og-fullimg {
+		display: none;
+	}
+
+	.og-details {
+		float: none;
+		width: 100%;
+		padding: 0;
+	}
+
+	.og-details h3 {
+		font-size: 32px;
+	}
 
 }
