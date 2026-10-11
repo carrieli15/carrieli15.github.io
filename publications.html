@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Publications - Academic Homepage</title>
+    <link rel="icon" href="assets/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css?v=29" />
+  </head>
+  <body>
+    <header class="top-nav">
+      <nav class="top-nav-links" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="publications.html" class="active">Publications</a>
+        <a href="talks.html">Talks</a>
+        <a href="honors.html">Grants &amp; Honors</a>
+        <a href="services.html">Services</a>
+      </nav>
+    </header>
+
+    <main class="page-main">
+      <section class="page-header">
+        <h1>Publications</h1>
+      </section>
+
+      <ul class="pub-list page-list">
+        <li class="pub-item">
+          <div class="pub-title">When Helpfulness Becomes Sycophancy: Sycophancy is a Boundary Failure Between Social Alignment and Epistemic Integrity in Large Language Models</div>
+          <div class="pub-authors">
+            <span class="author-highlight">Jiechen Li*</span>, Catherine A. Barry*, Rishika Randev, Janet Chen, Ella Jorgensen, Brinnae Bent
+          </div>
+          <div class="pub-venue">NeurIPS 2026 Position Paper Track</div>
+          <div class="pub-abstract" data-collapsed="true">
+            <p>
+              This position paper argues that sycophancy in LLMs is a boundary
+              failure between social alignment and epistemic integrity. Existing
+              work often operationalizes sycophancy through external behavior such
+              as agreement with incorrect user beliefs, position reversals, or
+              deviation from an objective standard of correctness. These
+              formulations capture only overt forms of the phenomenon and leave
+              subtler boundary failures involving epistemic integrity and social
+              alignment underspecified. We argue that sycophancy should not be
+              understood as agreement alone, but as alignment behavior that
+              displaces independent epistemic judgment. To clarify this boundary,
+              we propose a three-condition framework for sycophancy. First, the
+              user expresses a cue in the form of a belief, preference, or
+              self-concept. Second, the model shifts toward that cue through
+              alignment behavior. Third, this shift compromises epistemic
+              accuracy, independent reasoning, or appropriate correction. We also
+              introduce a taxonomy for classifying sycophancy, consisting of
+              alignment targets, mechanisms, and severity. The paper concludes by
+              discussing implications for alignment evaluation and argues for
+              boundary-aware assessment, structured rubrics, and mitigation
+              strategies, while situating these proposals alongside alternative
+              views of sycophancy.
+            </p>
+            <button class="abstract-toggle" type="button" aria-expanded="false" aria-label="Expand abstract">
+              <span class="toggle-label">more</span>
+              <span class="toggle-arrow" aria-hidden="true">↓</span>
+            </button>
+          </div>
+          <div class="pub-links">
+            <a href="#" target="_blank" rel="noreferrer" data-hidden="true">pdf</a>
+            <a href="https://arxiv.org/abs/2605.05403" target="_blank" rel="noreferrer">arxiv</a>
+            <a href="#" target="_blank" rel="noreferrer" data-hidden="true">code</a>
+          </div>
+        </li>
+
+        <li class="pub-item">
+          <div class="pub-title">
+            Aligned Machine
+          </div>
+          <div class="pub-authors"><span class="author-highlight">Jiechen Li</span>, Hannah Groos, Brinnae Bent</div>
+          <div class="pub-venue">Women in Machine Learning (WiML) Workshop at NeurIPS 2025 (non-archival). Abstract accepted for in-person poster.</div>
+          <div class="pub-abstract" data-collapsed="true">
+            <p>
+              Embedding models increasingly inform how people search, recommend,
+              and retrieve information, yet we lack credible ways to test whether
+              these models' similarity judgments reflect how humans understand
+              meaning. Existing datasets such as STS-B and SimLex-999 rely on
+              static, often expert-labeled pairs with coarse Likert-style
+              annotations. These approaches are limited in scope and vulnerable to
+              inter-annotator inconsistencies. We introduce Aligned Machine, an
+              interactive, public-facing platform that turns broad participation
+              into a benchmark for evaluating semantic alignment in
+              embedding-based systems. Inspired by participatory studies such as
+              Moral Machine, the platform invites anyone to compare two pairs of
+              items and choose which pair is more similar. This comparative,
+              forced-choice task is cognitively natural for non-experts, creates
+              engaging interactions, and yields clean preference data suitable for
+              model evaluation. Aligned Machine is designed first and foremost as
+              a vehicle for public engagement and AI literacy. The IRB-approved,
+              web-based platform integrates elements of gamification, culminating
+              in an analysis of how a user compared to popular embedding models.
+              Each interaction with the platform also populates a benchmark of
+              human-aligned similarity, which will be released as an open-source
+              dataset and leaderboard. By combining accessible participation with
+              rigorous comparative judgments, Aligned Machine provides a scalable
+              pathway to engage the public in the evaluation of AI systems while
+              producing an open, evolving benchmark that the community can use to
+              test, compare, and improve AI models.
+            </p>
+            <button class="abstract-toggle" type="button" aria-expanded="false" aria-label="Expand abstract">
+              <span class="toggle-label">more</span>
+              <span class="toggle-arrow" aria-hidden="true">↓</span>
+            </button>
+          </div>
+          <div class="pub-links">
+            <a href="https://openreview.net/forum?id=ucQJPKnrIC" target="_blank" rel="noreferrer">openreview</a>
+          </div>
+        </li>
+
+      </ul>
+      <p class="pub-footnote">* indicates equal contribution</p>
+    </main>
+
+    <footer class="site-footer">Copyright Jiechen Li © 2026</footer>
+    <script>
+      document.querySelectorAll(".abstract-toggle").forEach((button) => {
+        button.addEventListener("click", () => {
+          const abstract = button.closest(".pub-abstract");
+          const isExpanded = abstract.dataset.collapsed === "false";
+          abstract.dataset.collapsed = isExpanded ? "true" : "false";
+          button.setAttribute("aria-expanded", String(!isExpanded));
+          button.setAttribute(
+            "aria-label",
+            isExpanded ? "Expand abstract" : "Collapse abstract",
+          );
+          button.querySelector(".toggle-label").textContent = isExpanded
+            ? "more"
+            : "less";
+          button.querySelector(".toggle-arrow").textContent = isExpanded
+            ? "↓"
+            : "↑";
+        });
+      });
+    </script>
+  </body>
+</html>
