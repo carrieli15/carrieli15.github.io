@@ -2,7 +2,7 @@ const newsItems = [
   {
     date: "Oct 7, 2026",
     tag: "grant",
-    text: "I received a University of Rochester River Campus Libraries Dataset Grant to support my research!",
+    text: "I received a University of Rochester River Campus Libraries Data Set Grant to support my research!",
   },
   {
     date: "Sep 24, 2026",
